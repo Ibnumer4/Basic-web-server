@@ -111,9 +111,12 @@ Once the server is running, you can test the following routes in your browser or
 /books/:id (POST): updates the book with the specified ID.
 /books/:id (DELETE): deletes the book with the specified ID.
 /books/recommendations: returns a random book as a recommendation.
-Deployment
-This API can be deployed to any public hosting platform (e.g., Render, Vercel, or Fly.io). Once deployed, share the live link here:
-Deployed API URL: [Insert the live URL here]
+
+## Deployment
+
+This Django web server is hosted on https://pythonanywhere.com/. You can access the live version of the server via the following link:
+
+[Live Server](https://ibnumertechub.pythonanywhere.com/)
 
 Repository Structure
 views.py: Contains all the API endpoint logic.
